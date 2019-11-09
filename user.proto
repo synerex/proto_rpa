@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package api.user;
+package proto_rpa;
 
-option go_package="github.com/synerex/synerex_alpha/api/rpa";
+option go_package="github.com/synerex/proto_rpa";
 
 import "google/protobuf/timestamp.proto";
 

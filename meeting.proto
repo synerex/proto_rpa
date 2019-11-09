@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package api.meeting;
+package proto_rpa;
 
-option go_package="github.com/synerex/synerex_alpha/api/rpa";
+option go_package="github.com/synerex/proto_rpa";
 
 message MeetingService {
     string cid = 1;
