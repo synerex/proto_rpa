@@ -32,7 +32,7 @@ func (m *User) Reset()         { *m = User{} }
 func (m *User) String() string { return proto.CompactTextString(m) }
 func (*User) ProtoMessage()    {}
 func (*User) Descriptor() ([]byte, []int) {
-	return fileDescriptor_user_fcba66606b0eee48, []int{0}
+	return fileDescriptor_user_987132b164add2dc, []int{0}
 }
 func (m *User) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_User.Unmarshal(m, b)
@@ -77,9 +77,9 @@ func init() {
 	proto.RegisterType((*User)(nil), "proto_rpa.User")
 }
 
-func init() { proto.RegisterFile("user.proto", fileDescriptor_user_fcba66606b0eee48) }
+func init() { proto.RegisterFile("user.proto", fileDescriptor_user_987132b164add2dc) }
 
-var fileDescriptor_user_fcba66606b0eee48 = []byte{
+var fileDescriptor_user_987132b164add2dc = []byte{
 	// 187 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xe2, 0xe2, 0x2a, 0x2d, 0x4e, 0x2d,
 	0xd2, 0x2b, 0x28, 0xca, 0x2f, 0xc9, 0x17, 0xe2, 0x04, 0x53, 0xf1, 0x45, 0x05, 0x89, 0x52, 0xf2,
